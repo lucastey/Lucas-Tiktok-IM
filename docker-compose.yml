@@ -12,7 +12,7 @@ services:
   http-server:
     build: http-server
     ports:
-      - "8080:8080"
+      - "8081:8080"
     environment:
       - SERVICE_NAME=http-server
       - SERVICE_TAGS=http
